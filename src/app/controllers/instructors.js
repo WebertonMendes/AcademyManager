@@ -14,8 +14,6 @@ module.exports = {
         return res.render("instructors/index", { instructors })
       })
     }
-
-
   },
   create(req, res){
     return res.render("instructors/create")
