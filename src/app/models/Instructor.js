@@ -8,7 +8,7 @@ module.exports = {
             FROM instructors
             LEFT JOIN members ON (members.instructor_id = instructors.id)
             GROUP BY instructors.id
-            ORDER BY instructor.name`,
+            ORDER BY instructors.name`,
             function(err, results){
                 if(err) throw `Database Error! ${err}`
                 callback(results.rows)
