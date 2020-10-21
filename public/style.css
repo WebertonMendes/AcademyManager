@@ -22,6 +22,14 @@ header {
   padding: 32px;
   text-align: center;
   box-sizing: border-box;
+  position: relative;
+}
+
+header img {
+  max-width: 150px;
+  position: absolute;
+  left: 32px;
+  top: 12px;
 }
 
 .links {

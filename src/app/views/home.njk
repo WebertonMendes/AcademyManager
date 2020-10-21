@@ -1,0 +1,18 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Gym Manager</title>
+    <link rel="shortcut icon" href="/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/home.css">
+{% endblock %}
+
+{% block header %}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <img src="/logo.png" alt="Gym Manager">
+    <h2>Olá! Seja bem vindo ao Gym Manager</h2>
+    <p>Clique em iniciar para começar a gerenciar a sua Gym</p>
+    <a href="/instructors">Iniciar</a>
+</div>
+{% endblock content %}
