@@ -25,6 +25,7 @@ $ npm install
 $ npm start
 ```
 <br>
+
 ### Telas da Aplicação
 
 > Página Home
